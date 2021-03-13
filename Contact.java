@@ -17,5 +17,8 @@ public class Contact {
 		this.PHONE_NUMBER=pn;
 		this.EMAIL=email;
 	}
-
+	public String toString()
+	{
+		return String.format(FIRST_NAME+" "+LAST_NAME+" "+ADDRESS+" "+CITY+" "+STATE+" "+PHONE_NUMBER+" "+EMAIL);
+	}
 }
